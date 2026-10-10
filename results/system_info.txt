@@ -1,0 +1,53 @@
+===== SYSTEM INFORMATION =====
+
+OS:
+Ubuntu 26.04 LTS
+
+Kernel:
+7.0.0-31-generic
+
+CPU:
+CPU(s):                                  16
+On-line CPU(s) list:                     0-15
+Model name:                              13th Gen Intel(R) Core(TM) i7-13620H
+Thread(s) per core:                      2
+Core(s) per socket:                      10
+CPU(s) scaling MHz:                      14%
+NUMA node0 CPU(s):                       0-15
+
+RAM:
+               total        used        free      shared  buff/cache   available
+Mem:            30Gi       6.6Gi       5.9Gi       1.3Gi        19Gi        23Gi
+Swap:          8.0Gi       3.6Mi       8.0Gi
+
+Storage:
+NAME    ROTA MODEL                           SIZE
+loop0      0                                66.8M
+loop1      0                                   4K
+loop2      0                                66.8M
+loop3      0                                14.2M
+loop4      0                               222.3M
+loop5      0                               260.8M
+loop6      0                               261.3M
+loop7      0                               606.1M
+loop8      0                                16.5M
+loop9      0                                91.7M
+loop10     0                                 395M
+loop11     0                                 402M
+loop13     0                                15.7M
+loop14     0                                18.8M
+loop15     0                                11.8M
+loop16     0                                50.3M
+loop17     0                                50.1M
+loop18     0                                 580K
+loop19     0                                14.2M
+loop20     0                                 828K
+loop22     0                               222.1M
+loop23     0                                18.4M
+nvme0n1    0 PHISON EM280512GMN48-PE21T1AS 476.9G
+
+Compiler:
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
+
+CMake:
+cmake version 4.2.3

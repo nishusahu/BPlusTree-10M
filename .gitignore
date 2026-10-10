@@ -1,0 +1,24 @@
+# Build products
+build/
+*.o
+*.obj
+*.exe
+
+# Large/private dataset files
+/data/*.csv
+/data/*.tsv
+/data/*.zip
+
+# Generated B+ tree storage
+run_data/
+*.dat
+*.bin
+
+# Generated result plots
+results/*.png
+
+# IDE/editor files
+.vscode/
+.idea/
+*~
+.DS_Store

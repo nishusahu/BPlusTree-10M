@@ -1,0 +1,179 @@
+============================================================
+B+ TREE BENCHMARK
+============================================================
+Mode            : memory
+Dataset         : /home/nishu-kumar/PHD 1st SEM/SDE/bplus_tree_data_10m.csv
+Record limit    : 1000000
+Search sample   : 2000
+Random seed     : 42
+Memory max keys : 100
+============================================================
+
+Inserted 50000 records (759955.2 records/s)
+Inserted 100000 records (828724.2 records/s)
+Inserted 150000 records (843433.7 records/s)
+Inserted 200000 records (846305.7 records/s)
+Inserted 250000 records (828835.8 records/s)
+Inserted 300000 records (802140.3 records/s)
+Inserted 350000 records (793402.6 records/s)
+Inserted 400000 records (782091.8 records/s)
+Inserted 450000 records (761960.9 records/s)
+Inserted 500000 records (736099.7 records/s)
+Inserted 550000 records (717347.8 records/s)
+Inserted 600000 records (704863.9 records/s)
+Inserted 650000 records (693667.7 records/s)
+Inserted 700000 records (683906.6 records/s)
+Inserted 750000 records (675276.3 records/s)
+Inserted 800000 records (667233.8 records/s)
+Inserted 850000 records (660280.3 records/s)
+Inserted 900000 records (654315.5 records/s)
+Inserted 950000 records (648345.0 records/s)
+Inserted 1000000 records (642958.9 records/s)
+
+============================================================
+BENCHMARK COMPLETE
+============================================================
+Mode                 : memory
+Records inserted     : 1000000
+Insertion time       : 1.555 s
+Insertion throughput : 642956.5 records/s
+Searches             : 2000
+Average search       : 1.418 us
+Verified hits        : 2000
+Verification failures: 0
+Peak RSS             : 172.67 MB
+Tree height          : 4
+Nodes/pages          : 14676
+Internal capacity    : 100 keys/page
+Leaf capacity        : 100 entries/page
+Results appended to  : "results/quick_results.csv"
+============================================================
+============================================================
+B+ TREE BENCHMARK
+============================================================
+Mode            : disk
+Dataset         : /home/nishu-kumar/PHD 1st SEM/SDE/bplus_tree_data_10m.csv
+Record limit    : 1000000
+Search sample   : 2000
+Random seed     : 42
+Page size       : 4096 bytes
+Key bytes       : 32 bytes max
+============================================================
+
+Derived internal capacity: 101 keys/page
+Derived leaf capacity    : 101 entries/page
+
+Inserted 50000 records (86675.5 records/s)
+Inserted 100000 records (84059.3 records/s)
+Inserted 150000 records (82112.5 records/s)
+Inserted 200000 records (80971.9 records/s)
+Inserted 250000 records (80139.1 records/s)
+Inserted 300000 records (79488.1 records/s)
+Inserted 350000 records (78886.8 records/s)
+Inserted 400000 records (78338.0 records/s)
+Inserted 450000 records (77759.3 records/s)
+Inserted 500000 records (77003.4 records/s)
+Inserted 550000 records (74657.5 records/s)
+Inserted 600000 records (73708.5 records/s)
+Inserted 650000 records (72898.4 records/s)
+Inserted 700000 records (72187.9 records/s)
+Inserted 750000 records (71518.3 records/s)
+Inserted 800000 records (70915.9 records/s)
+Inserted 850000 records (70361.4 records/s)
+Inserted 900000 records (70131.4 records/s)
+Inserted 950000 records (69961.7 records/s)
+Inserted 1000000 records (69924.0 records/s)
+
+============================================================
+BENCHMARK COMPLETE
+============================================================
+Mode                 : disk
+Records inserted     : 1000000
+Insertion time       : 14.301 s
+Insertion throughput : 69924.0 records/s
+Searches             : 2000
+Average search       : 11.562 us
+Verified hits        : 2000
+Verification failures: 0
+Peak RSS             : 4.54 MB
+Tree height          : 4
+Nodes/pages          : 14501
+Internal capacity    : 101 keys/page
+Leaf capacity        : 101 entries/page
+Disk usage           : 121.50 MB
+Insert page reads    : 3540827
+Insert page writes   : 1028995
+Search page reads    : 8000
+Search page writes   : 0
+Results appended to  : "results/quick_results.csv"
+============================================================
+============================================================
+B+ TREE BENCHMARK
+============================================================
+Mode            : hybrid
+Dataset         : /home/nishu-kumar/PHD 1st SEM/SDE/bplus_tree_data_10m.csv
+Record limit    : 1000000
+Search sample   : 2000
+Random seed     : 42
+Page size       : 4096 bytes
+Key bytes       : 32 bytes max
+Cache pages     : 4096
+============================================================
+
+Derived internal capacity: 101 keys/page
+Derived leaf capacity    : 101 entries/page
+
+Inserted 50000 records (121342.3 records/s)
+Inserted 100000 records (115623.5 records/s)
+Inserted 150000 records (113691.5 records/s)
+Inserted 200000 records (112169.8 records/s)
+Inserted 250000 records (109897.6 records/s)
+Inserted 300000 records (108164.0 records/s)
+Inserted 350000 records (106047.6 records/s)
+Inserted 400000 records (103548.4 records/s)
+Inserted 450000 records (100779.1 records/s)
+Inserted 500000 records (98584.1 records/s)
+Inserted 550000 records (96898.6 records/s)
+Inserted 600000 records (95662.9 records/s)
+Inserted 650000 records (94455.4 records/s)
+Inserted 700000 records (93418.6 records/s)
+Inserted 750000 records (92427.5 records/s)
+Inserted 800000 records (91490.9 records/s)
+Inserted 850000 records (90598.2 records/s)
+Inserted 900000 records (89743.1 records/s)
+Inserted 950000 records (89022.2 records/s)
+Inserted 1000000 records (88294.7 records/s)
+
+============================================================
+BENCHMARK COMPLETE
+============================================================
+Mode                 : hybrid
+Records inserted     : 1000000
+Insertion time       : 11.326 s
+Insertion throughput : 88294.6 records/s
+Searches             : 2000
+Average search       : 8.519 us
+Verified hits        : 2000
+Verification failures: 0
+Peak RSS             : 18.95 MB
+Tree height          : 4
+Nodes/pages          : 14501
+Internal capacity    : 101 keys/page
+Leaf capacity        : 101 entries/page
+Disk usage           : 121.50 MB
+Insert page reads    : 354614
+Insert page writes   : 1028995
+Search page reads    : 1424
+Search page writes   : 0
+Cache pages          : 4096 (~16.00 MB nominal pages)
+Cache hit rate       : 89.97%
+Results appended to  : "results/quick_results.csv"
+============================================================
+
+Quick benchmark finished: results/quick_results.csv
+
+mode   | records | insert_seconds | avg_search_us | peak_rss_mb | disk_bytes | tree_height | page_reads_insert | page_reads_search | cache_hit_rate_total
+-------+---------+----------------+---------------+-------------+------------+-------------+-------------------+-------------------+---------------------
+memory | 1000000 | 1.555315       | 1.418         | 172.67      | 0          | 4           | 0                 | 0                 | 0.00                
+disk   | 1000000 | 14.301240      | 11.562        | 4.54        | 127400192  | 4           | 3540827           | 8000              | 0.00                
+hybrid | 1000000 | 11.325725      | 8.519         | 18.95       | 127400192  | 4           | 354614            | 1424              | 89.97               
